@@ -16,6 +16,7 @@ import ReactOperatorsExample from './components/ReactOperatorsExample';
 import OperatorPractice from './components/OperatorPractice';
 import UseEffectQuiz from './components/UseEffectQuiz';
 import UseEffectTestRunner from './components/UseEffectTestRunner';
+import UseEffectCodeEditor from './components/UseEffectCodeEditor';
 
 const theme = createTheme({
   palette: {
@@ -75,6 +76,12 @@ function App() {
       description: '다양한 useEffect 패턴 실습',
       component: UseEffectTestRunner,
       icon: '🧪'
+    },
+    { 
+      title: 'useEffect 편집기', 
+      description: '코드를 직접 수정하고 실행해보세요!',
+      component: UseEffectCodeEditor,
+      icon: '💻'
     }
   ];
   
